@@ -31,27 +31,41 @@
 						name="task"
 						id="task"
 					/><br />
-					<button id="add-task" class="add-task">Search Task</button
-					><br />
-					<label for="search-task">Add Task: </label>
-					<input
-						class="search-task"
-						type="text"
-						name="task"
-						id="search-task"
-					/><br />
-					<button id="search" class="search">Search Task</button>
+					<button id="addTaskBtn" class="add-task">Add Task</button>
 				</div>
 			</form>
 			<section class="weekday-calender">
-				<div class="calender-box monday">Monday</div>
-				<div class="calender-box tuesday">Tuesday</div>
-				<div class="calender-box wednesday">Wednesday</div>
-				<div class="calender-box thursday">Thursday</div>
-				<div class="calender-box friday">Friday</div>
-				<div class="calender-box saturday">Saturday</div>
-				<div class="calender-box sunday">Sunday</div>
+				<div tabindex="0" class="calender-box monday">
+					Monday
+					<ul class="items"></ul>
+				</div>
+
+				<div tabindex="1" class="calender-box tuesday">
+					Tuesday
+					<ul class="items"></ul>
+				</div>
+				<div tabindex="2" class="calender-box wednesday">
+					Wednesday
+					<ul class="items"></ul>
+				</div>
+				<div tabindex="3" class="calender-box thursday">
+					Thursday
+					<ul class="items"></ul>
+				</div>
+				<div tabindex="4" class="calender-box friday">
+					Friday
+					<ul class="items"></ul>
+				</div>
+				<div tabindex="5" class="calender-box saturday">
+					Saturday
+					<ul class="items"></ul>
+				</div>
+				<div tabindex="6" class="calender-box sunday">
+					Sunday
+					<ul class="items"></ul>
+				</div>
 			</section>
 		</div>
+		<script type="text/javascript" src="app.js"></script>
 	</body>
 </html>

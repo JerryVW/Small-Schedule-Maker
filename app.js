@@ -1,9 +1,9 @@
 'use strict';
-let weekday = document.getElementById('weekday').value;
 
-const getWeekday = function (weekday) {
-	console.log(weekday.innerHTML);
-	return weekday.innerHTML;
+window.onload = function (e) {
+	document.getElementById('addTaskBtn').addEventListener('click', task);
 };
 
-getWeekday(weekday);
+function addItem(e) {
+	e.preventDefault();
+}
